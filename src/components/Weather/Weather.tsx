@@ -21,7 +21,7 @@ const Weather = (props: WeatherProps) => {
         </div>
         <div>
           <div className="city-weather-detail">
-            Temperature: {weather?.main.temp} Kelvin
+            Temperature: {weather?.main.temp} K
           </div>
           <div className="city-weather-detail">
             Humidity: {weather?.main.humidity} %
