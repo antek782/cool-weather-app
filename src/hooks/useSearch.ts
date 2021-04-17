@@ -10,7 +10,7 @@ const useSearch = (searchValue: string, data: string[]) => {
       return city.toLowerCase().includes(searchValue.toLowerCase());
     });
 
-    return result;
+    return result.filter((city) => city !== searchValue);;
   }, [data, searchValue]);
 
   useEffect(() => {
