@@ -1,4 +1,5 @@
 import React from 'react'
+import { CityWeatherParams } from "../../hooks/useFetchWeather";
 
 interface WeatherProps {
   weather?: CityWeatherParams;
